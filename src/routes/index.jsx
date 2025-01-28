@@ -2,6 +2,9 @@ import App from '../App.jsx'
 import {Home,About,AlbumIndex,AlbumLayout,AlbumPhoto,AlbumSearch,NotFound} from "../pages"
 import { createHashRouter } from "react-router-dom";
 import SwiperPage from '../pages/SwiperPage.jsx';
+import ListPage from '../pages/ListPage.jsx';
+import LoadingPage from '../pages/loadingPage.jsx';
+
   const routes = [
     {
       path : '/',
@@ -18,6 +21,14 @@ import SwiperPage from '../pages/SwiperPage.jsx';
         {
           path : 'swiperPage',
           element : <SwiperPage />
+        },
+        {
+          path : 'listPage',
+          element : <ListPage />
+        },
+        {
+          path : 'loadingPage',
+          element : <LoadingPage />
         },
         {
           path : 'album',

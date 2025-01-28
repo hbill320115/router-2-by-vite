@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react"
-import { Link, useSearchParams } from "react-router-dom"; //useSearchParams
+import { useSearchParams } from "react-router-dom"; //useSearchParams
 import List from "../components/List";
 
 const api ="https://api.unsplash.com/search/photos";

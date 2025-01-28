@@ -29,6 +29,12 @@ export default function Navbar() {
             <li className="nav-item">
               <NavLink className="nav-link" to="/swiperPage">輪播</NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/listPage">表單</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/loadingPage">讀取</NavLink>
+            </li>
           </ul>
         </div>
       </div>
